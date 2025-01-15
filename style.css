@@ -18,14 +18,14 @@ body{
 }
 
 
-#img2{
+/*#img2{
     position: absolute;
     transform: translate(-50%, 35%);
     height: 62vh;
    
-}
+}*/
 
-div >img{  
+div > img{  
     position: absolute;
    height: 80vh;
    display: inline-block;
@@ -38,5 +38,18 @@ div >img{
     position: absolute;
    text-align: right;
    height: 7vh;
+}
+ section iframe{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 150px;
+    left: 22px;
+    width: 250px;
+    height: 450px;
+
+   
+   
+  ;
 }
 
