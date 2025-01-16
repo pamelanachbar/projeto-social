@@ -7,7 +7,7 @@
 
 html, body{
     height: 100vh;
-    width: 98.5vw;
+    width: 97vw;
 }
 body{
     background: url('imagens/fundo-madeira.jpg')no-repeat center center;
@@ -16,6 +16,7 @@ body{
 }
 main{
     height: 100vh;
+    width: 97vw;
     position: relative;
 }
 #telefone{
@@ -34,4 +35,27 @@ main{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+img{
+    width: 50px;
+    margin: 10px;  
+    border-radius: 50%; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.352);
+    box-sizing: border-box;
+     /*A borda faz parte do objeto, quando passar o mouse*/
+}
+
+img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.825);
+    transform: translate(-3px, -3px); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.629);
+    transition: 0.3s;
+    transition: border 1s;
+    /*Faz com que ao passar o mouse o objeto de uma levatada à esquerda e tenha uma sombra maior
+    Ele tem o tempo de 0.3 segundos para levantar e a borda aparece em 1 s
+    */
 }
